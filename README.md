@@ -22,7 +22,7 @@ import (
 
 func main() {
 	lst := []int{8, 9, 10, 10, 10, 11, 11, 11, 12, 13}
-	s := NewIntList(lst)
+	s := stats.NewIntList(lst)
 
 	fmt.Println("Min", s.Min())
 	fmt.Println("Max", s.Max())
